@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@700&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+  font-family: "Gemunu Libre", sans-serif;
+  margin: 20px;
+}
+
+.container {
+  background: aqua;
+  color: #1c1c1c;
+  margin: 16px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 16px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-imagem {
+  border-radius: 560px;
+  max-height: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.tema button {
+  border-radius: 18px;
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(236.85deg, aqua 27.26%, black 96.03%);
+  border-radius: 20px;
+  font-weight: 150;
+  font-size: 24px;
+  padding: 48px;
+  margin: 48px;
+}
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+  color: black;
+}
+.projetos-itens {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+.projetos-itens p {
+  color: white;
+  text-decoration: none;
+}
+
+.dark {
+  background: #333439;
+}
+
+.dark .container {
+  background: #333439;
+}
+
+.dark .titulo {
+  color: aqua;
+}
